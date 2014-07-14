@@ -7,10 +7,9 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.apps40in.rosberry.test.newsapp.NewsItem;
+import com.apps40in.rosberry.test.newsapp.items.NewsItem;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by sergeysorokin on 7/4/14.

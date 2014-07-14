@@ -19,6 +19,7 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 import com.apps40in.rosberry.test.newsapp.adapters.NewsListAdapter;
+import com.apps40in.rosberry.test.newsapp.items.NewsItem;
 import com.apps40in.rosberry.test.newsapp.managers.NewsArrayManager;
 import com.apps40in.rosberry.test.newsapp.managers.NewsCacheArrayManager;
 import com.apps40in.rosberry.test.newsapp.utils.SocialSharing;

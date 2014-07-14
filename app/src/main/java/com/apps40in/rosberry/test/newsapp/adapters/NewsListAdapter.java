@@ -2,12 +2,9 @@ package com.apps40in.rosberry.test.newsapp.adapters;
 
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
-import android.os.AsyncTask;
 import android.text.Html;
 import android.text.SpannableString;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,16 +14,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.androidquery.AQuery;
-import com.apps40in.rosberry.test.newsapp.NewsItem;
-import com.apps40in.rosberry.test.newsapp.NewsListActivity;
+import com.apps40in.rosberry.test.newsapp.items.NewsItem;
 import com.apps40in.rosberry.test.newsapp.R;
 import com.apps40in.rosberry.test.newsapp.utils.ImageUtils;
 
 import java.io.File;
-import java.io.InputStream;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * Created by sergeysorokin on 7/3/14.

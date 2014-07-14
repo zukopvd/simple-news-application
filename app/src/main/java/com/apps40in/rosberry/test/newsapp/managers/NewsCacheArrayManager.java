@@ -5,7 +5,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Environment;
 
-import com.apps40in.rosberry.test.newsapp.NewsItem;
+import com.apps40in.rosberry.test.newsapp.items.NewsItem;
 import com.apps40in.rosberry.test.newsapp.utils.NewsCache;
 
 import java.io.File;

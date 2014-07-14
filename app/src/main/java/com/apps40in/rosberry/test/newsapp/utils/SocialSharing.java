@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.widget.Toast;
 
-import com.apps40in.rosberry.test.newsapp.NewsItem;
+import com.apps40in.rosberry.test.newsapp.items.NewsItem;
 import com.sromku.simple.fb.Permission;
 import com.sromku.simple.fb.SimpleFacebook;
 import com.sromku.simple.fb.SimpleFacebookConfiguration;

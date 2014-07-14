@@ -1,6 +1,6 @@
 package com.apps40in.rosberry.test.newsapp.managers;
 
-import com.apps40in.rosberry.test.newsapp.NewsItem;
+import com.apps40in.rosberry.test.newsapp.items.NewsItem;
 import com.apps40in.rosberry.test.newsapp.utils.NewsJSONParser;
 
 import org.json.JSONArray;
@@ -17,7 +17,6 @@ public class NewsArrayManager {
 
     private ArrayList<NewsItem> newsList;
     private JSONArray jsonArray;
-    private JSONObject jsonObject;
     private String url;
     private NewsJSONParser parser;
     private NewsItem newsItem;
@@ -35,7 +34,7 @@ public class NewsArrayManager {
 
     private void newsLoading() {
 
-        String img = "https://www.google.ru/intl/ru/chrome/assets/common/images/chrome_logo_2x.png";
+        String img = null;
 
         try {
             jsonArray = parser.getJSONFromUrl(url);

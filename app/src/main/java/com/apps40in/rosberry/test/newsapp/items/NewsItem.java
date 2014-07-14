@@ -1,4 +1,4 @@
-package com.apps40in.rosberry.test.newsapp;
+package com.apps40in.rosberry.test.newsapp.items;
 
 /**
  * Created by sergeysorokin on 7/3/14.
